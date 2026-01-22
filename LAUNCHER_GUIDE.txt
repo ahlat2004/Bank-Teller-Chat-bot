@@ -1,0 +1,181 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                 BANK TELLER CHATBOT - UNIFIED LAUNCHER GUIDE                  ║
+║                                                                                ║
+║                          Your Quick Reference Card                             ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🚀 QUICKEST WAY TO START (Windows)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  From the project root folder, double-click:
+  
+    📁 Launch_App_Windows.vbs
+  
+  OR from command line:
+  
+    > run_app.bat
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 📚 ALL LAUNCHER OPTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1️⃣  BATCH FILE (run_app.bat)
+  ──────────────────────────────────────────────────────────────
+  Windows Desktop:
+    > run_app.bat
+  
+  Web Browser:
+    > run_app.bat web
+  
+  ⚡ Best for: Windows users (most reliable)
+  
+
+  2️⃣  POWERSHELL (run_app.ps1)
+  ──────────────────────────────────────────────────────────────
+  Windows Desktop:
+    PS> .\run_app.ps1
+  
+  Web Browser:
+    PS> .\run_app.ps1 -device web
+  
+  ⚡ Best for: PowerShell users
+  
+
+  3️⃣  PYTHON (launch_app.py)
+  ──────────────────────────────────────────────────────────────
+  Windows Desktop:
+    $ python launch_app.py
+  
+  Web Browser:
+    $ python launch_app.py --device web
+  
+  MacOS:
+    $ python launch_app.py --device macos
+  
+  Linux:
+    $ python launch_app.py --device linux
+  
+  Advanced Options:
+    $ python launch_app.py --skip-backend --device web
+    $ python launch_app.py --backend-port 8001
+  
+  ⚡ Best for: Multi-platform, advanced options
+  
+
+  4️⃣  VBS LAUNCHER (Launch_App_Windows.vbs)
+  ──────────────────────────────────────────────────────────────
+  Simply double-click the file!
+  
+  ⚡ Best for: Quick double-click launching
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🎯 WHAT HAPPENS WHEN YOU RUN
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Step 1: Launcher checks port 8000
+          ├─ If backend already running → Use it ✅
+          └─ If not → Start new backend 🚀
+  
+  Step 2: Backend loads (takes ~5-8 seconds)
+          ├─ Load Database
+          ├─ Load ML Models
+          ├─ Initialize Services
+          └─ Ready on http://127.0.0.1:8000 ✅
+  
+  Step 3: Flutter app launches
+          ├─ Connects to backend automatically
+          ├─ Shows chat interface
+          └─ Ready to chat! 💬
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🌐 SUPPORTED PLATFORMS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  ✅ Windows Desktop     └─ run_app.bat
+  ✅ Web Browser (Edge/Chrome)  └─ run_app.bat web
+  ✅ MacOS              └─ python launch_app.py --device macos
+  ✅ Linux              └─ python launch_app.py --device linux
+  ✅ Android Emulator   └─ python launch_app.py --device android
+  ✅ iOS Simulator      └─ python launch_app.py --device ios
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 📋 PROJECT STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  bank-teller-chatbot/
+  │
+  ├── 🚀 LAUNCH THESE:
+  │   ├─ run_app.bat ..................... (Batch launcher - Windows)
+  │   ├─ run_app.ps1 ..................... (PowerShell launcher)
+  │   ├─ launch_app.py ................... (Python launcher - Multi-platform)
+  │   └─ Launch_App_Windows.vbs .......... (VBS launcher - Double-click)
+  │
+  ├── 📚 READ THESE:
+  │   ├─ QUICK_START.md .................. (Quick reference)
+  │   ├─ LAUNCHER_README.md .............. (Detailed guide)
+  │   └─ SETUP_COMPLETE.md ............... (Full setup info)
+  │
+  ├── 🧠 BACKEND:
+  │   └─ backend/app/main.py ............ (FastAPI server on :8000)
+  │
+  └── 🎨 FRONTEND:
+      └─ frontend/bank_teller_bot_frontend/lib/ (Flutter app)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ ❓ TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Issue: "Port 8000 already in use"
+  Solution: The launcher detects this and reuses the existing backend ✅
+            OR: python launch_app.py --backend-port 8001
+  
+  Issue: "Cannot connect to backend"
+  Solution: Check port: netstat -ano | findstr :8000
+            Kill process: taskkill /PID <number> /F
+  
+  Issue: "Flutter not found"
+  Solution: Ensure Flutter SDK is in PATH
+            Check: flutter --version
+  
+  Issue: "Backend window closes immediately"
+  Solution: Check backend logs for errors
+            Run manually: cd backend/app && python -m uvicorn main:app
+  
+  For detailed help: See LAUNCHER_README.md
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 💡 TIPS & TRICKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  • Keep backend window open while using the app
+  • Press 'r' in Flutter for hot reload
+  • Press 'R' in Flutter for full restart
+  • Use --skip-backend if backend is already running
+  • Check backend/server.log for API errors
+  • Can run multiple launcher instances for different platforms
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 🎉 YOU'RE ALL SET!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  Everything is configured. Just run:
+  
+    > run_app.bat
+  
+  That's it! The entire system will launch in one command.
+  
+  Happy coding! 🚀
+
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                  For more info, check QUICK_START.md                          ║
+╚════════════════════════════════════════════════════════════════════════════════╝

@@ -1,0 +1,32 @@
+                                   precision    recall  f1-score   support
+
+                    activate_card     0.9737    0.9867    0.9801       150
+activate_card_international_usage     1.0000    1.0000    1.0000       150
+                   apply_for_loan     1.0000    0.9664    0.9829       149
+               apply_for_mortgage     0.9739    0.9933    0.9835       150
+                       block_card     0.9931    0.9600    0.9763       150
+                      cancel_card     0.9241    0.9799    0.9511       149
+                      cancel_loan     0.9932    0.9797    0.9864       148
+                  cancel_mortgage     0.9733    0.9799    0.9766       149
+                  cancel_transfer     0.9933    0.9933    0.9933       149
+            check_card_annual_fee     0.9933    0.9933    0.9933       149
+    check_current_balance_on_card     1.0000    1.0000    1.0000       149
+                       check_fees     0.9930    0.9930    0.9930       142
+              check_loan_payments     0.9866    0.9932    0.9899       148
+          check_mortgage_payments     0.9932    0.9866    0.9899       149
+        check_recent_transactions     1.0000    1.0000    1.0000       150
+                    close_account     0.9803    0.9933    0.9868       150
+                   create_account     1.0000    0.9866    0.9932       149
+                 customer_service     1.0000    1.0000    1.0000       150
+           dispute_ATM_withdrawal     1.0000    1.0000    1.0000       148
+                         find_ATM     0.9867    0.9867    0.9867       150
+                      find_branch     0.9933    0.9867    0.9900       150
+                     get_password     0.9836    1.0000    0.9917       120
+                      human_agent     1.0000    1.0000    1.0000       150
+                    make_transfer     1.0000    0.9933    0.9967       150
+           recover_swallowed_card     0.9932    0.9732    0.9831       149
+                  set_up_password     0.9852    0.9852    0.9852       135
+
+                         accuracy                         0.9888      3832
+                        macro avg     0.9889    0.9889    0.9888      3832
+                     weighted avg     0.9890    0.9888    0.9888      3832

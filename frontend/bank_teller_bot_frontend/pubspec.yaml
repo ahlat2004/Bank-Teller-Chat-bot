@@ -1,0 +1,46 @@
+name: bank_teller_bot_frontend
+description: Bank Teller Chatbot - Flutter Frontend
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # HTTP & API
+  dio: ^5.7.0
+  
+  # Local Storage
+  shared_preferences: ^2.3.3
+  
+  # UUID Generation
+  uuid: ^4.5.1
+  
+  # Intl (formatting)
+  intl: ^0.20.1
+  
+  # Path Provider (for logging)
+  path_provider: ^2.1.1
+  
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment to add assets
+  # assets:
+  #   - images/
+  #   - icons/

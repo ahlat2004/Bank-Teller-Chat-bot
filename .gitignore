@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.pytest_cache/
+.env
+*.log
+server.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+trained_models/
+logs/
+data/raw/
+data/processed/
+*.db
+.DS_Store
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Flutter
+flutter/build/
+flutter/.dart_tool/
+flutter/pubspec.lock
+
+# Node (if used)
+node_modules/
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
