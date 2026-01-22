@@ -51,14 +51,14 @@ Proceed to **WP2: Dataset Acquisition & Preprocessing**
 ### 📋 Work Packages Progress
 
 - [x] WP1: Project Setup & Environment Configuration
-- [ ] WP2: Dataset Acquisition & Preprocessing
-- [ ] WP3: Intent Classification Model Training
-- [ ] WP4: Entity Extraction System
-- [ ] WP5: Dialogue Manager Implementation
-- [ ] WP6: SQLite Database Setup
-- [ ] WP7: FastAPI Backend Development
-- [ ] WP8: Frontend UI Development
-- [ ] WP9: Integration & Testing
+- [x] WP2: Dataset Acquisition & Preprocessing
+- [x] WP3: Intent Classification Model Training
+- [x] WP4: Entity Extraction System
+- [x] WP5: Dialogue Manager Implementation
+- [x] WP6: SQLite Database Setup
+- [x] WP7: FastAPI Backend Development
+- [x] WP8: Frontend UI Development
+- [x] WP9: Integration & Testing
 - [ ] WP10: Demo Preparation & Deployment
 
 ### 🛠️ Tech Stack
@@ -196,4 +196,5 @@ bank-teller-chatbot/
 ├── 📂 scripts/
 ├── 📄 .gitignore
 ├── 📄 .env.example
+
 └── 📄 README.md
